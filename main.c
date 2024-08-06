@@ -4,9 +4,10 @@
 *    - Specifically filters for devices named "DXC" by checking the advertisement data type BT_DATA_NAME_COMPLETE.
 * 2. Support multiple device connections.
 *    - Manages up to six simultaneous connections by using an array of connection objects. 
-*	 - The MAX_CONNECTIONS variable can be changed to suit the desired amount of supported devices.
+*    - The MAX_CONNECTIONS variable can be changed to suit the desired amount of supported devices.
 *    - Iterates through the connections array to handle connection and disconnection events.
 */
+
 /* main.c - Application main entry point */
 
 /*
