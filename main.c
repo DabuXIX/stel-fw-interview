@@ -36,7 +36,6 @@ static void start_scan(void);
 // Array to store multiple connection objects, initialized to NULL
 static struct bt_conn *conns[MAX_CONNECTIONS] = {0};
 
-
 // Helper function to check if the device advertisement data contains the desired name
 static bool device_name_found(struct bt_data *data, void *user_data)
 {
